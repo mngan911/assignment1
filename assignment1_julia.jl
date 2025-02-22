@@ -3,15 +3,15 @@ using DataFrames
 using Dates
 using LinearAlgebra
 using Plots
-
+using Downloads
 # Load the dataset
-df = CSV.read("/Users/gragusa/Downloads/current.csv", DataFrame)
+url = "https://raw.githubusercontent.com/johnjosephhorton/ols/master/current.csv"
 
+df = CSV.read(Downloads.download(url), DataFrame)
 # Clean the DataFrame by removing the row with transformation codes
 df_cleaned = df[2:end, :]
 date_format = "mm/dd/yyyy"
 df_cleaned[!, :sasdate] = Dates.Date.(df_cleaned[!, :sasdate], date_format)
-
 
 df_original = copy(df_cleaned)
 df_cleaned = coalesce.(df_cleaned, NaN)
