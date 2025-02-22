@@ -4,7 +4,8 @@ library(ggplot2)
 library(lubridate)
 library(tidyr)
 # Load the dataset
-df <- read_csv('~/Downloads/current.csv')
+url <- "https://www.stlouisfed.org/-/media/project/frbstl/stlouisfed/research/fred-md/monthly/current.csv?sc_lang=en&hash=80445D12401C59CF716410F3F7863B64"
+df <- read_csv(url)
 
 # Extract transformation codes
 transformation_codes <- data.frame(Series = names(df)[-1], Transformation_Code = as.numeric(df[1, -1]))
