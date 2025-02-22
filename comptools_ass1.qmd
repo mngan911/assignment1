@@ -13,7 +13,7 @@ code-line-numbers: true
 
 This assignment introduces to practical and theoretical aspects of macroeconometrics, focusing on forecasting using the FRED-MD dataset. You will learn to handle macroeconomic data, perform necessary transformations, apply univariate models to predict key economic indicators and to evaluate these forecasts.
 
-This is the _first assignment_ and it will only be considered toward your final grade if it is satisfactory. It does not mean that you won't have to put effort into it. It is important that you try to do it so you can start learning the basics of the programming language of your choice. 
+This is the _first assignment_ and it will only be considered toward your final grade if it is satisfactory. It does not mean that you won't have to put effort into it. It is important that you try to do it so you can start learning the basics of the programming language of your choice. Also, it will help you familiarize with GitHub, Visual Studio code and other tools you will need for the remainder of the course.
 
 ## The FRED-MD dataset 
 
