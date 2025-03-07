@@ -1,4 +1,9 @@
 AR Model: https://quantdare.com/autoregressive-model-sp500-and-euro-stoxx-50e/
+
 Times Series Forecasting Model: https://www.scirp.org/journal/paperinformation?paperid=123229
+
 R course: https://jonpage.github.io/r-course/cross-setion.html#cross-setion
-Predicted vs Actual plot: https://dooinnkim.medium.com/how-to-plot-predicted-vs-actual-graphs-and-residual-plots-dc4e5b3f304a
+
+Predicted vs Actual plot: 
+https://dooinnkim.medium.com/how-to-plot-predicted-vs-actual-graphs-and-residual-plots-dc4e5b3f304a
+https://stackoverflow.com/questions/58410187/how-to-plot-predicted-values-vs-the-true-value
